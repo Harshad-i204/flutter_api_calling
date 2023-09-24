@@ -108,7 +108,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
                                     Wrap(
                                       children: [
                                         Text(
-                                          // article?.source!.name ?? '',
                                           article?.author ?? '',
                                           style: TextStyle(
                                               color: Colors.white,
